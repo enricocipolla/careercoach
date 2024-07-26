@@ -1,0 +1,386 @@
+StartDate;EndDate;Status;IPAddress;Progress;Duration (in seconds);Finished;RecordedDate;ResponseId;RecipientLastName;RecipientFirstName;RecipientEmail;ExternalReference;LocationLatitude;LocationLongitude;DistributionChannel;UserLanguage;Q1;Q2;Q3;Q4;Q4_4_TEXT;Q5;Q6;Position vs. Company;Q8;Awareness_1;Awareness_2;CS-Control_1;CS-Control_2;CS-Control_3;CS-H-Python_1;CS-H-Python_2;CS-H-Python_3;CS-H-SQL_1;CS-H-SQL_2;CS-H-SQL_3;CS-H-Excel_1;CS-H-Excel_2;CS-H-Excel_3;CS-S-Leadership_1;CS-S-Leadership_2;CS-S-Leadership_3;CS-S-Communication_1;CS-S-Communication_2;CS-S-Communication_3;CS-S-Problem Solving_1;CS-S-Problem Solving_2;CS-S-Problem Solving_3;B-Control_1;B-Control_2;B-Control_3;B-H-Python_1;B-H-Python_2;B-H-Python_3;B-H-Modeling_1;B-H-Modeling_2;B-H-Modeling_3;B-H-Excel_1;B-H-Excel_2;B-H-Excel_3;B-S-Leadership_1;B-S-Leadership_2;B-S-Leadership_3;B-S-Communication_1;B-S-Communication_2;B-S-Communication_3;B-S-Problem Solving_1;B-S-Problem Solving_2;B-S-Problem Solving_3;Q_Language;Q_DataPolicyViolations
+Start Date;End Date;Response Type;IP Address;Progress;Duration (in seconds);Finished;Recorded Date;Response ID;Recipient Last Name;Recipient First Name;Recipient Email;External Data Reference;Location Latitude;Location Longitude;Distribution Channel;User Language;What is your age?;What is your gender?;Where do you live currently?;In what field is your education? - Selected Choice;In what field is your education? - Other (please specify) - Text;Are you actively looking for a job at the moment?;Are you planning to search for a job in the future?;When looking for a job, do you value more the job position or the company offering it?;Are you sure about what job to look for?;To what extent do you agree with the following statements - I am aware of the specific requirements, skills and experience needed to apply for the job I am looking for;To what extent do you agree with the following statements - I am aware of how I rank among my peers looking for the same job;"Suppose that Mario Rossi is looking for a entry level job at a major company (e.g. Amazon, BCG, JP Morgan), considering the following information on his CV:
+
+	Bachelor degree in Economics and Management;
+	Currently pursuing Master degree in Business Analytics;
+	Basic knowledge of R, Python, SQL;
+	Average knowledge of Microsoft Office;
+	Proven track record of good abilities to work collaboratively in a team.
+
+What would you say is the probability that he gets the following positions? - Consultant";"Suppose that Mario Rossi is looking for a entry level job at a major company (e.g. Amazon, BCG, JP Morgan), considering the following information on his CV:
+
+	Bachelor degree in Economics and Management;
+	Currently pursuing Master degree in Business Analytics;
+	Basic knowledge of R, Python, SQL;
+	Average knowledge of Microsoft Office;
+	Proven track record of good abilities to work collaboratively in a team.
+
+What would you say is the probability that he gets the following positions? - Data Scientist";"Suppose that Mario Rossi is looking for a entry level job at a major company (e.g. Amazon, BCG, JP Morgan), considering the following information on his CV:
+
+	Bachelor degree in Economics and Management;
+	Currently pursuing Master degree in Business Analytics;
+	Basic knowledge of R, Python, SQL;
+	Average knowledge of Microsoft Office;
+	Proven track record of good abilities to work collaboratively in a team.
+
+What would you say is the probability that he gets the following positions? - Data Analyst";"Now suppose that Mario improves his curriculum by achieving an advanced level of proficiency with Python.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his curriculum by achieving an advanced level of proficiency with Python.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Scientist";"Now suppose that Mario improves his curriculum by achieving an advanced level of proficiency with Python.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Analyst";"Now suppose that Mario improves his curriculum by achieving an advanced level of proficiency with R and SQL.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his curriculum by achieving an advanced level of proficiency with R and SQL.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Scientist";"Now suppose that Mario improves his curriculum by achieving an advanced level of proficiency with R and SQL.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Analyst";"Now suppose that Mario improves his curriculum by achieving a professional level of expertise in Excel.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his curriculum by achieving a professional level of expertise in Excel.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Scientist";"Now suppose that Mario improves his curriculum by achieving a professional level of expertise in Excel.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Analyst";"Now suppose that Mario improves his curriculum by adding proven records of good leadership skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his curriculum by adding proven records of good leadership skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Scientist";"Now suppose that Mario improves his curriculum by adding proven records of good leadership skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Analyst";"Now suppose that Mario improves his curriculum by adding proven records of great communication skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his curriculum by adding proven records of great communication skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Scientist";"Now suppose that Mario improves his curriculum by adding proven records of great communication skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidates:
+Consultant: [QID29-ChoiceNumericEntryValue-1]
+Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Analyst";"Now suppose that Mario improves his curriculum by adding proven records of great problem solving skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidates:
+ Consultant: [QID29-ChoiceNumericEntryValue-1]
+ Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+ Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his curriculum by adding proven records of great problem solving skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidates:
+ Consultant: [QID29-ChoiceNumericEntryValue-1]
+ Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+ Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Scientist";"Now suppose that Mario improves his curriculum by adding proven records of great problem solving skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidates:
+ Consultant: [QID29-ChoiceNumericEntryValue-1]
+ Data Scientist: [QID29-ChoiceNumericEntryValue-2]
+ Data Analyst: [QID29-ChoiceNumericEntryValue-3] - Data Analyst";"Suppose that Mario Rossi is looking for a entry level job at a major company (e.g. Amazon, BCG, JP Morgan), considering the following information on his CV:
+
+	Bachelor degree in Economics and Management;
+	Currently pursuing Master degree in Business Analytics;
+	Basic financial modeling skills;
+	Average knowledge of Microsoft Office;
+	Proven track record of good abilities to work collaboratively in a team.
+
+What would you say is the probability that he gets the following positions? - Consultant";"Suppose that Mario Rossi is looking for a entry level job at a major company (e.g. Amazon, BCG, JP Morgan), considering the following information on his CV:
+
+	Bachelor degree in Economics and Management;
+	Currently pursuing Master degree in Business Analytics;
+	Basic financial modeling skills;
+	Average knowledge of Microsoft Office;
+	Proven track record of good abilities to work collaboratively in a team.
+
+What would you say is the probability that he gets the following positions? - Business Analyst";"Suppose that Mario Rossi is looking for a entry level job at a major company (e.g. Amazon, BCG, JP Morgan), considering the following information on his CV:
+
+	Bachelor degree in Economics and Management;
+	Currently pursuing Master degree in Business Analytics;
+	Basic financial modeling skills;
+	Average knowledge of Microsoft Office;
+	Proven track record of good abilities to work collaboratively in a team.
+
+What would you say is the probability that he gets the following positions? - M&A Analyst";"Now suppose that Mario improves his curriculum by learning Python fundamentals.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his curriculum by learning Python fundamentals.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Business Analyst";"Now suppose that Mario improves his curriculum by learning Python fundamentals.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - M&A Analyst";"Now suppose that Mario improves his financial modeling skills, achieving an advanced level of expertise.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his financial modeling skills, achieving an advanced level of expertise.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Business Analyst";"Now suppose that Mario improves his financial modeling skills, achieving an advanced level of expertise.
+What would you say his chances are, after the improvement?
+
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - M&A Analyst";"Now suppose that Mario improves his curriculum by achieving a professional level of expertise in Excel.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his curriculum by achieving a professional level of expertise in Excel.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Business Analyst";"Now suppose that Mario improves his curriculum by achieving a professional level of expertise in Excel.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - M&A Analyst";"Now suppose that Mario improves his curriculum by adding proven records of good leadership skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his curriculum by adding proven records of good leadership skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Business Analyst";"Now suppose that Mario improves his curriculum by adding proven records of good leadership skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - M&A Analyst";"Now suppose that Mario improves his curriculum by adding proven records of great communication skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his curriculum by adding proven records of great communication skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Business Analyst";"Now suppose that Mario improves his curriculum by adding proven records of great communication skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - M&A Analyst";"Now suppose that Mario improves his curriculum by adding proven records of great problem solving skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Consultant";"Now suppose that Mario improves his curriculum by adding proven records of great problem solving skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - Business Analyst";"Now suppose that Mario improves his curriculum by adding proven records of great problem solving skills.
+What would you say his chances are, after the improvement?
+Note that you assigned those probabilities to the initial candidate:
+Consultant: [QID3-ChoiceNumericEntryValue-1]
+Business Analyst: [QID3-ChoiceNumericEntryValue-2]
+M&A Analyst: [QID3-ChoiceNumericEntryValue-3] - M&A Analyst";Q_Language;Q_DataPolicyViolations
+11/11/2023 05:06;11/11/2023 05:08;0;;100;126;1;11/11/2023 05:08;R_vUXM0pol9r4O6qd;;;;;;;anonymous;IT;3;1;1;3;;1;;1;1;3;1;0,55;0,4;0,45;;;;;;;;;;0,63;0,49;0,47;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 05:11;11/11/2023 05:14;0;;100;163;1;11/11/2023 05:14;R_2e4iFmeFtwlrCvv;;;;;;;anonymous;EN;3;1;1;3;;1;;1;1;4;2;0,62;0,45;0,5;;;;;;;;;;;;;0,75;0,5;0,58;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 05:19;11/11/2023 05:20;0;;100;58;1;11/11/2023 05:20;R_2c0DtDcJlgkIWTb;;;;;;;anonymous;IT;3;1;1;3;;2;1;1;2;;;0,5;0,5;0,5;0,7;0,71;0,77;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 05:42;11/11/2023 05:44;0;;100;85;1;11/11/2023 05:44;R_1mPXUCrVKF1DVda;;;;;;;anonymous;IT;3;2;1;1;;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,63;0,65;0,82;;;;0,66;0,81;0,84;;;;;;;;;;;;;IT;
+11/11/2023 05:44;11/11/2023 05:45;0;;100;107;1;11/11/2023 05:45;R_1imOczU2NxcvL0E;;;;;;;anonymous;IT;3;2;1;1;;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,65;0,7;0,42;;;;0,75;0,85;0,56;;;;;;;;;;;;;IT;
+11/11/2023 05:44;11/11/2023 05:45;0;;100;108;1;11/11/2023 05:45;R_1dtvQpT0RgfPwhy;;;;;;;anonymous;EN;3;1;2;1;;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,2;0,35;0,15;;;;;;;0,3;0,45;0,25;;;;;;;;;;EN;
+11/11/2023 05:48;11/11/2023 05:51;0;;100;164;1;11/11/2023 05:51;R_1QEhsCMzfOu5wFy;;;;;;;anonymous;IT;2;1;1;3;;2;1;1;2;;;0,55;0,3;0,4;;;;0,65;0,4;0,55;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 05:50;11/11/2023 05:51;0;;100;71;1;11/11/2023 05:51;R_1ITbkr4QyauC2zw;;;;;;;anonymous;EN;2;1;1;1;;1;;1;1;4;4;;;;;;;;;;;;;;;;;;;;;;0,57;0,95;0,2;;;;;;;0,59;0,98;0,26;;;;;;;;;;EN;
+11/11/2023 05:49;11/11/2023 05:52;0;;100;187;1;11/11/2023 05:52;R_2ctt7DJKEyXjpZc;;;;;;;anonymous;IT;3;1;1;1;;1;;1;1;4;1;;;;;;;;;;;;;;;;;;;;;;1;1;1;;;;;;;;;;;;;;;;1;1;1;IT;
+11/11/2023 05:51;11/11/2023 05:53;0;;100;102;1;11/11/2023 05:53;R_1ZUtTJ2ae4FsrXr;;;;;;;anonymous;IT;3;2;1;3;;1;;2;2;;;0,73;0,33;0,77;;;;;;;0,83;0,33;0,83;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 05:51;11/11/2023 05:53;0;;100;107;1;11/11/2023 05:53;R_3kHZYjAWKso2Yax;;;;;;;anonymous;IT;3;1;1;1;;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,4;0,2;0,05;;;;;;;;;;;;;;;;0,4;0,2;0,05;IT;
+11/11/2023 05:54;11/11/2023 05:56;0;;100;100;1;11/11/2023 05:56;R_pLhpMsAWibegNlD;;;;;;;anonymous;EN;2;1;1;3;;1;;2;2;;;0,6;0,23;0,5;;;;;;;0,71;0,23;0,5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 05:58;11/11/2023 06:01;0;;100;127;1;11/11/2023 06:01;R_8hSinMeTeH8Hkqt;;;;;;;anonymous;EN;3;2;1;3;;2;1;1;2;;;0,75;0,14;0,45;;;;;;;0,82;0,3;0,5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 05:56;11/11/2023 06:01;0;;100;287;1;11/11/2023 06:01;R_12tCBwShqedEgv8;;;;;;;anonymous;EN;3;2;1;1;;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,8;0,82;0,1;;;;;;;;;;;;;;;;0,96;0,92;0,2;EN;
+11/11/2023 05:49;11/11/2023 06:09;0;;100;1162;1;11/11/2023 06:09;R_1F3dfGkJlWjf55o;;;;;;;anonymous;IT;3;2;1;3;;1;;1;1;4;2;0,62;0,41;0,39;0,62;0,64;0,65;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 06:10;11/11/2023 06:12;0;;100;90;1;11/11/2023 06:12;R_2dH2Gf94IMQ3tXE;;;;;;;anonymous;IT;3;2;2;1;;2;1;1;1;5;2;;;;;;;;;;;;;;;;;;;;;;0;0;0;;;;;;;;;;0;0;0;;;;;;;IT;
+11/11/2023 06:15;11/11/2023 06:17;0;;100;97;1;11/11/2023 06:17;R_2xW4pmmqo56FOoD;;;;;;;anonymous;IT;3;1;1;1;;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,6;0,79;0,38;;;;;;;;;;0,7;0,83;0,39;;;;;;;IT;
+11/11/2023 06:17;11/11/2023 06:19;0;;100;131;1;11/11/2023 06:19;R_2uWoeDAHwKHuG7b;;;;;;;anonymous;IT;3;1;1;3;;2;1;2;2;;;0,48;0,25;0,35;;;;0,55;0,3;0,4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 06:24;11/11/2023 06:25;0;;100;85;1;11/11/2023 06:25;R_3Odk9pr5Zc0LA2x;;;;;;;anonymous;IT;2;1;1;3;;1;;1;2;;;0,5;0;0,39;;;;;;;;;;;;;0,55;0;0,39;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 06:26;11/11/2023 06:29;0;;100;161;1;11/11/2023 06:29;R_TnFbCe1hld7S8qR;;;;;;;anonymous;IT;3;2;2;4;Economia e computer science, poi economia comportamentale (psicologia);2;2;;;;;;;;;;;;;;;;;;;;;;;;;;0,79;0,79;0,52;0,88;0,96;0,64;;;;;;;;;;;;;;;;IT;
+11/11/2023 06:26;11/11/2023 06:29;0;;100;198;1;11/11/2023 06:29;R_DUjTdU9bFNXFP2N;;;;;;;anonymous;EN;2;2;1;3;;2;1;2;2;;;0,8;0,2;0,5;0,8;0,5;0,7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 06:30;11/11/2023 06:32;0;;100;138;1;11/11/2023 06:32;R_2c6NRYtGMMZDhAD;;;;;;;anonymous;EN;3;1;1;1;;1;;1;1;3;2;;;;;;;;;;;;;;;;;;;;;;0,64;0,27;0,42;0,64;0,61;0,42;;;;;;;;;;;;;;;;EN;
+11/11/2023 06:32;11/11/2023 06:34;0;;100;137;1;11/11/2023 06:34;R_3j7HbC6kKI2Ou66;;;;;;;anonymous;EN;2;1;1;1;;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,15;0,1;0,05;0,15;0,12;0,05;;;;;;;;;;;;;;;;EN;
+11/11/2023 06:43;11/11/2023 06:45;0;;100;120;1;11/11/2023 06:45;R_3lS3N9HVTOavbE6;;;;;;;anonymous;IT;3;1;1;3;;1;;1;2;;;0,75;0,45;0,65;;;;;;;;;;;;;;;;0,8;0,45;0,7;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 06:44;11/11/2023 06:46;0;;100;99;1;11/11/2023 06:46;R_3hEWzd9tHIHVWWE;;;;;;;anonymous;EN;2;1;1;3;;2;1;2;2;;;0,16;0;0,26;;;;;;;;;;;;;0,21;0;0,26;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 06:45;11/11/2023 06:47;0;;100;150;1;11/11/2023 06:47;R_1PdB8Xwug3dZgPS;;;;;;;anonymous;IT;2;2;1;1;;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,81;0,41;0,31;;;;;;;;;;;;;0,62;0,4;0,3;;;;IT;
+11/11/2023 06:46;11/11/2023 06:48;0;;100;91;1;11/11/2023 06:48;R_1jSNonvziZ7GzfT;;;;;;;anonymous;IT;3;2;2;1;;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,13;0,22;0,1;;;;;;;;;;0,15;0,22;0,1;;;;;;;IT;
+11/11/2023 06:45;11/11/2023 06:48;0;;100;174;1;11/11/2023 06:48;R_305XBwnjrg5fMWp;;;;;;;anonymous;EN;3;2;1;3;;2;1;2;2;;;0,21;0,6;0,75;;;;0,21;0,7;0,6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 06:55;11/11/2023 06:56;0;;100;64;1;11/11/2023 06:56;R_1LU1Sgud80A1flc;;;;;;;anonymous;IT;3;2;2;3;;2;1;2;2;;;0,57;0,09;0,97;;;;;;;0,82;0,54;0,84;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 06:56;11/11/2023 06:58;0;;100;114;1;11/11/2023 06:58;R_29aX66vddsIkspU;;;;;;;anonymous;IT;3;2;1;1;;2;1;2;1;4;2;;;;;;;;;;;;;;;;;;;;;;0,49;0,61;0,32;;;;;;;;;;;;;0,58;0,61;0,32;;;;IT;
+11/11/2023 06:56;11/11/2023 06:59;0;;100;158;1;11/11/2023 06:59;R_XFVpfcLsgDclLax;;;;;;;anonymous;IT;2;2;1;1;;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,7;0,8;0,5;0,8;0,85;0,5;;;;;;;;;;;;;;;;IT;
+11/11/2023 06:59;11/11/2023 07:01;0;;100;90;1;11/11/2023 07:01;R_3E9ZCeZ3kZMqiPq;;;;;;;anonymous;EN;2;2;1;3;;1;;1;1;5;4;0,52;0,35;0,49;;;;;;;;;;;;;0,67;0,43;0,55;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 06:59;11/11/2023 07:01;0;;100;92;1;11/11/2023 07:01;R_SQ1I5T3koBVkQdX;;;;;;;anonymous;IT;2;1;1;3;;1;;1;1;4;1;0,6;0,1;0,1;;;;0,6;0,4;0,4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 07:00;11/11/2023 07:03;0;;100;181;1;11/11/2023 07:03;R_1Cm8JfgIT4vVtUd;;;;;;;anonymous;EN;2;1;1;3;;2;1;1;2;;;0,83;0,07;0,1;0,79;0,21;0,36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 07:04;11/11/2023 07:07;0;;100;151;1;11/11/2023 07:07;R_Us8U31ZU5oY55iV;;;;;;;anonymous;IT;2;1;1;3;;2;1;1;2;;;0,3;0;0,05;0,35;0,1;0,15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 07:07;11/11/2023 07:08;0;;100;90;1;11/11/2023 07:08;R_1Dq0bx4R9Ofkaw3;;;;;;;anonymous;EN;2;1;2;3;;1;;2;2;;;0,6;0,1;0,8;0,6;0,5;0,9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 07:09;11/11/2023 07:11;0;;100;104;1;11/11/2023 07:11;R_u4eiiUxnSppv1Jv;;;;;;;anonymous;IT;2;1;1;3;;2;1;1;1;4;1;0,6;0,1;0,6;;;;;;;;;;;;;;;;0,6;0,4;0,6;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 07:15;11/11/2023 07:17;0;;100;88;1;11/11/2023 07:17;R_2OUbolGFANdlv8y;;;;;;;anonymous;EN;3;1;2;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;;;0,79;0,47;0,4;;;;;;;;;;0,87;0,51;0,5;;;;;;;EN;
+11/11/2023 07:16;11/11/2023 07:18;0;;100;106;1;11/11/2023 07:18;R_YcuW0sE3VnULa1P;;;;;;;anonymous;EN;2;1;1;3;;1;;1;1;5;4;0,23;0,73;0,46;;;;;;;;;;;;;0,3;0,78;0,54;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 07:26;11/11/2023 07:27;0;;100;91;1;11/11/2023 07:28;R_8nORbEcnXMMpibn;;;;;;;anonymous;EN;2;1;1;1;;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,19;0,13;0,14;;;;;;;;;;;;;0,21;0,18;0,16;;;;EN;
+11/11/2023 07:22;11/11/2023 07:28;0;;100;340;1;11/11/2023 07:28;R_2fDUv4VGeZWaKiJ;;;;;;;anonymous;IT;3;1;1;1;;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,5;0,7;0,25;;;;;;;;;;;;;;;;0,6;0,8;0,4;IT;
+11/11/2023 07:26;11/11/2023 07:28;0;;100;117;1;11/11/2023 07:28;R_VU55BAJE3bCysut;;;;;;;anonymous;IT;3;1;1;3;;2;1;2;2;;;0,8;0,6;0,81;;;;;;;;;;0,9;0,6;0,81;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 07:35;11/11/2023 07:37;0;;100;152;1;11/11/2023 07:37;R_3sia9mF0wQ2ZE6N;;;;;;;anonymous;IT;4;1;1;1;;1;;1;1;5;3;;;;;;;;;;;;;;;;;;;;;;0,65;0,8;0;;;;;;;;;;;;;;;;0,73;0,88;0;IT;
+11/11/2023 07:39;11/11/2023 07:41;0;;100;99;1;11/11/2023 07:41;R_3lVzxpThVhpDITR;;;;;;;anonymous;IT;2;1;1;3;;2;1;2;2;;;0,2;0,25;0,2;;;;;;;;;;0,3;0,3;0,24;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 07:54;11/11/2023 07:56;0;;100;133;1;11/11/2023 07:56;R_2CBdJ9mEYLWLqVk;;;;;;;anonymous;IT;2;1;1;3;;1;;1;1;4;2;0,9;0;0,49;;;;;;;;;;;;;;;;0,9;0;0,49;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 07:54;11/11/2023 07:56;0;;100;115;1;11/11/2023 07:56;R_2uUQYw0vlfxh7Nn;;;;;;;anonymous;EN;2;2;1;1;;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,31;0,31;0,32;;;;;;;;;;;;;;;;0,41;0,31;0,31;EN;
+11/11/2023 07:57;11/11/2023 07:59;0;;100;144;1;11/11/2023 07:59;R_piatum6JitALfgZ;;;;;;;anonymous;EN;3;1;1;3;;2;1;1;2;;;0,8;0,5;0,8;0,8;0,65;0,9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 07:58;11/11/2023 08:00;0;;100;119;1;11/11/2023 08:00;R_3Ma6zeswcRwIijI;;;;;;;anonymous;EN;2;1;1;3;;1;;2;2;;;0,11;0,01;0,05;0,1;0,01;0,1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 08:00;11/11/2023 08:02;0;;100;99;1;11/11/2023 08:02;R_20Or1dE6nUWgCaW;;;;;;;anonymous;EN;2;1;1;3;;1;;1;1;5;4;0,8;0,2;0,4;;;;;;;0,9;0,2;0,5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 08:01;11/11/2023 08:05;0;;100;238;1;11/11/2023 08:05;R_2A12Q5zuoaazDzr;;;;;;;anonymous;IT;2;2;1;3;;2;1;1;1;3;4;0,71;0,3;0,5;;;;;;;0,72;0,35;0,5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 06:48;11/11/2023 08:27;0;;100;5939;1;11/11/2023 08:27;R_1ILD0mpgoQXWbst;;;;;;;anonymous;EN;3;1;1;3;;1;;1;2;;;0,6;0,18;0,37;0,7;0,5;0,61;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 08:32;11/11/2023 08:34;0;;100;122;1;11/11/2023 08:34;R_1ikzljSUYvsfqP5;;;;;;;anonymous;EN;4;1;1;3;;2;1;2;1;4;4;0,56;0,62;0,77;;;;0,45;0,64;0,75;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 08:40;11/11/2023 08:42;0;;100;120;1;11/11/2023 08:42;R_1CllNNMhoRK57B9;;;;;;;anonymous;EN;3;1;1;3;;2;1;2;2;;;0,34;0,06;0,11;;;;;;;;;;;;;0,74;0,07;0,17;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 08:43;11/11/2023 08:45;0;;100;132;1;11/11/2023 08:45;R_2Cp6GCb9viYi0tX;;;;;;;anonymous;EN;2;1;1;3;;1;;2;2;;;0,7;0,1;0,4;;;;0,7;0,2;0,5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 08:45;11/11/2023 08:47;0;;100;133;1;11/11/2023 08:47;R_3p0j8MrItgbhyG2;;;;;;;anonymous;EN;3;1;1;3;;2;1;2;1;1;2;0,69;0,11;0,3;;;;;;;;;;;;;;;;0,73;0,17;0,38;;;;;;;;;;;;;;;;;;;;;;EN;
+11/11/2023 08:56;11/11/2023 08:57;0;;100;97;1;11/11/2023 08:57;R_1FnQTHVZ9VWNR1H;;;;;;;anonymous;EN;2;2;1;4;Economics and Cs;1;;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,6;0,59;0,84;;;;;;;;;;;;;0,7;0,6;0,84;;;;EN;
+11/11/2023 09:58;11/11/2023 09:59;0;;100;68;1;11/11/2023 09:59;R_0qQhWeheCR6Djln;;;;;;;anonymous;IT;3;2;1;3;;2;1;1;2;;;0,49;0,87;0,85;;;;;;;;;;;;;;;;0,77;0,37;0,37;;;;;;;;;;;;;;;;;;;;;;IT;
+11/11/2023 11:22;11/11/2023 11:25;0;;100;147;1;11/11/2023 11:25;R_Oer4Wnm3vLK4qFb;;;;;;;anonymous;EN;2;2;1;1;;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,55;0,73;0,18;;;;;;;;;;;;;;;;0,7;0,81;0,24;EN;
+11/11/2023 11:26;11/11/2023 11:27;0;;100;72;1;11/11/2023 11:28;R_2OMYKWb73NcgFIE;;;;;;;anonymous;IT;3;1;1;1;;1;;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,37;0,67;0,12;;;;;;;;;;;;;;;;0,55;0,68;0,27;IT;
+11/11/2023 11:54;11/11/2023 11:56;0;;100;94;1;11/11/2023 11:56;R_2QSW2gaPXF00BWJ;;;;;;;anonymous;EN;3;2;1;1;;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,51;0,61;0,62;0,61;0,84;0,85;;;;;;;;;;;;;;;;EN;
+11/11/2023 18:16;11/11/2023 18:19;0;;100;184;1;11/11/2023 18:19;R_VHY5QXTxTWuaxmp;;;;;;;anonymous;EN;2;1;1;3;;1;;1;1;3;3;0,4;0,02;0,2;;;;0,4;0,01;0,2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+12/11/2023 02:41;12/11/2023 02:43;0;;100;109;1;12/11/2023 02:43;R_3HiaU9bbT2DvQv2;;;;;;;anonymous;IT;3;2;1;1;;1;;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,6;0,73;0,51;;;;;;;0,65;0,77;0,55;;;;;;;;;;IT;
+12/11/2023 03:40;12/11/2023 03:41;0;;100;65;1;12/11/2023 03:41;R_bvytLudAGjaF9bX;;;;;;;anonymous;IT;3;1;1;1;;1;;1;1;3;3;;;;;;;;;;;;;;;;;;;;;;1;1;1;;;;1;1;1;;;;;;;;;;;;;IT;
+12/11/2023 03:57;12/11/2023 04:00;0;;100;180;1;12/11/2023 04:00;R_6A0GUsWWn217jZn;;;;;;;anonymous;IT;3;1;2;3;;2;1;2;2;;;0,65;0,2;0,51;;;;;;;;;;;;;0,7;0,21;0,53;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+12/11/2023 04:34;12/11/2023 04:37;0;;100;159;1;12/11/2023 04:37;R_2TMASoOvGKem8bm;;;;;;;anonymous;EN;3;2;1;1;;2;1;2;1;4;3;;;;;;;;;;;;;;;;;;;;;;0,61;0,82;0,54;;;;;;;0,73;0,89;0,64;;;;;;;;;;EN;
+12/11/2023 06:08;12/11/2023 06:22;0;;100;823;1;12/11/2023 06:22;R_31niSfes5Undibu;;;;;;;anonymous;IT;2;2;1;3;;1;;1;1;5;2;0,66;0,05;0,22;0,64;0;0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+12/11/2023 06:33;12/11/2023 06:35;0;;100;129;1;12/11/2023 06:35;R_6G3s99gJLwShVHr;;;;;;;anonymous;IT;3;1;1;1;;2;1;2;1;4;3;;;;;;;;;;;;;;;;;;;;;;0,4;0,75;0,25;0,4;0,8;0,3;;;;;;;;;;;;;;;;IT;
+12/11/2023 10:31;12/11/2023 10:33;0;;100;81;1;12/11/2023 10:33;R_2zeaUWtytwhBC5E;;;;;;;anonymous;EN;2;2;1;1;;1;;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,81;0,82;0,63;;;;;;;0,85;0,89;0,71;;;;;;;;;;EN;
+12/11/2023 11:21;12/11/2023 11:23;0;;100;98;1;12/11/2023 11:23;R_2ttbyFOlmTZroKf;;;;;;;anonymous;IT;2;1;1;1;;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,72;0,5;0,44;0,79;0,77;0,65;;;;;;;;;;;;;;;;IT;
+12/11/2023 11:27;12/11/2023 11:29;0;;100;114;1;12/11/2023 11:29;R_Rb6bpnNotuHKNFf;;;;;;;anonymous;IT;2;2;1;1;;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,1;0,1;0,1;;;;;;;;;;;;;0,1;0,1;0,1;;;;IT;
+12/11/2023 11:34;12/11/2023 11:37;0;;100;169;1;12/11/2023 11:37;R_3NEzHijzxTifuqc;;;;;;;anonymous;EN;4;1;2;4;Machine learning engineer;1;;1;1;4;3;;;;;;;;;;;;;;;;;;;;;;0,39;0,29;0,33;;;;0,44;0,43;0,5;;;;;;;;;;;;;EN;
+12/11/2023 12:36;12/11/2023 12:37;0;;100;70;1;12/11/2023 12:37;R_6M2SpFROjBaTY2d;;;;;;;anonymous;IT;2;1;1;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;;;0,65;0,8;0,01;;;;;;;;;;;;;0,68;0,81;0,02;;;;IT;
+12/11/2023 13:03;12/11/2023 13:05;0;;100;100;1;12/11/2023 13:05;R_O41DhfBSPpSC7zr;;;;;;;anonymous;EN;2;1;1;4;Computer science ;2;1;2;1;5;5;;;;;;;;;;;;;;;;;;;;;;0,79;0,36;0,12;;;;0,29;0,74;0,59;;;;;;;;;;;;;EN;
+12/11/2023 13:03;12/11/2023 13:06;0;;100;147;1;12/11/2023 13:06;R_03awnWJfkQyLCtX;;;;;;;anonymous;IT;3;1;1;4;Ingegneria biomedica ;2;2;;;;;;;;;;;;;;;;;;;;;;;;;;0,58;0,6;0,4;;;;0,65;0,77;0,62;;;;;;;;;;;;;IT;
+12/11/2023 13:23;12/11/2023 13:26;0;;100;161;1;12/11/2023 13:26;R_1nMy2DefNcCycdn;;;;;;;anonymous;EN;2;1;1;3;;2;1;2;1;4;3;0,36;0,17;0,37;;;;;;;;;;;;;0,47;0,17;0,43;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+12/11/2023 16:29;12/11/2023 16:32;0;;100;174;1;12/11/2023 16:32;R_2e28F5eZwzse8VA;;;;;;;anonymous;EN;3;1;2;4;Social Sciences;1;;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,15;0,35;0,35;0,2;0,4;0,4;;;;;;;;;;;;;;;;EN;
+12/11/2023 17:09;12/11/2023 17:11;0;;100;153;1;12/11/2023 17:11;R_2aKS2noDDEOBvfz;;;;;;;anonymous;EN;3;1;1;3;;1;;1;1;3;2;0,37;0,03;0,16;;;;;;;;;;;;;;;;0,49;0,07;0,15;;;;;;;;;;;;;;;;;;;;;;EN;
+13/11/2023 00:55;13/11/2023 00:57;0;;100;135;1;13/11/2023 00:57;R_3G0MzKhilX3RPU0;;;;;;;anonymous;IT;3;1;2;3;;1;;1;1;5;2;0,5;0,05;0,1;;;;;;;;;;;;;0,52;0,05;0,1;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+13/11/2023 01:18;13/11/2023 01:21;0;;100;153;1;13/11/2023 01:21;R_2WYe3L1dyK7jwNZ;;;;;;;anonymous;EN;2;2;2;4;Natural Science;2;1;2;1;5;4;;;;;;;;;;;;;;;;;;;;;;0,25;0,75;0,65;;;;;;;;;;;;;;;;0,58;0,83;0,75;EN;
+13/11/2023 03:03;13/11/2023 03:04;0;;100;56;1;13/11/2023 03:04;R_1eK0Dbk9ES7PqE3;;;;;;;anonymous;IT;3;1;1;3;;1;;1;2;;;0,45;0,33;0,46;;;;;;;;;;0,45;0,33;0,46;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+13/11/2023 03:05;13/11/2023 03:06;0;;100;54;1;13/11/2023 03:06;R_2QA6Avcn20bip8e;;;;;;;anonymous;IT;3;2;1;1;;1;;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,5;0,5;0,2;;;;;;;0,61;0,64;0,32;;;;;;;;;;IT;
+13/11/2023 03:27;13/11/2023 03:30;0;;100;129;1;13/11/2023 03:30;R_1lgyyDo8peSOWbI;;;;;;;anonymous;EN;3;2;2;4;Political Science and International Relations;1;;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,39;0,75;0,16;;;;;;;;;;;;;;;;0,52;0,88;0,5;EN;
+13/11/2023 04:39;13/11/2023 04:49;0;;100;597;1;13/11/2023 04:49;R_2a8pIov0yGlhiBi;;;;;;;anonymous;EN;3;2;2;4;Biotech;2;1;1;1;4;3;;;;;;;;;;;;;;;;;;;;;;0,2;0,15;0,1;;;;;;;;;;0,25;0,2;0,15;;;;;;;EN;
+13/11/2023 10:58;13/11/2023 11:00;0;;100;93;1;13/11/2023 11:00;R_5cAlwphZAjtHH57;;;;;;;anonymous;IT;3;1;1;3;;2;1;2;2;;;0,7;0,4;0,35;;;;;;;;;;0,75;0,45;0,32;;;;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+14/11/2023 02:05;14/11/2023 02:08;0;;100;160;1;14/11/2023 02:08;R_Tw9bqJjtzSjyZkl;;;;;;;anonymous;IT;2;2;2;1;;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,6;0,75;0,4;0,65;0,8;0,5;;;;;;;;;;;;;;;;IT;
+14/11/2023 02:17;14/11/2023 02:18;0;;100;98;1;14/11/2023 02:18;R_cOB8KDTRuniqDPr;;;;;;;anonymous;EN;3;1;1;3;;1;;2;2;;;0,47;0,08;0,1;;;;;;;;;;0,64;0,08;0,1;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 06:02;14/11/2023 06:06;0;;100;220;1;14/11/2023 06:06;R_ei0MF0IeaUeM921;;;;;;;anonymous;EN;3;2;2;3;;1;;1;1;5;3;0,6;0,22;0,29;;;;;;;0,75;0,23;0,4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 06:35;14/11/2023 06:48;0;;100;777;1;14/11/2023 06:48;R_1Ns84GpSbxCW8Em;;;;;;;anonymous;EN;3;2;2;4;Architecture;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;1;0,5;0,25;;;;;;;;;;;;;1;0,55;0,3;;;;EN;
+14/11/2023 06:47;14/11/2023 06:51;0;;100;212;1;14/11/2023 06:51;R_3CQsfNJQZPpI6JW;;;;;;;anonymous;EN;3;1;2;3;;2;1;1;1;4;4;0,01;0,02;0,05;;;;;;;;;;0,04;0,03;0,08;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 06:59;14/11/2023 07:01;0;;100;155;1;14/11/2023 07:01;R_x2S1m9dBObUsAzT;;;;;;;anonymous;EN;2;2;1;4;Economics, Management and Computer Science;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,5;0,2;0,2;;;;;;;;;;;;;;;;0,55;0,3;0,3;EN;
+14/11/2023 06:59;14/11/2023 07:03;0;;100;224;1;14/11/2023 07:03;R_3oYNgT1AQWBgDxm;;;;;;;anonymous;EN;3;2;2;3;;2;1;1;2;;;0,5;0,11;0,5;;;;;;;0,5;0,11;0,5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 07:02;14/11/2023 07:03;0;;100;88;1;14/11/2023 07:03;R_2YwTKlo3xCgd31Q;;;;;;;anonymous;EN;3;1;2;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;;;0,01;0,01;0,01;;;;;;;;;;0,02;0,02;0,02;;;;;;;EN;
+14/11/2023 07:05;14/11/2023 07:06;0;;100;89;1;14/11/2023 07:06;R_6WGUOjNkpNnhrRT;;;;;;;anonymous;EN;3;1;1;3;;1;;2;2;;;0,4;0,05;0,1;;;;0,45;0,67;0,62;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 07:07;14/11/2023 07:08;0;;100;79;1;14/11/2023 07:08;R_2TpiWzpcOlL0ETa;;;;;;;anonymous;EN;1;1;1;3;;2;1;1;2;;;0,51;0,01;0,2;;;;;;;;;;;;;;;;0,8;0,02;0,25;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 07:05;14/11/2023 07:09;0;;100;210;1;14/11/2023 07:09;R_1eQOgsLNrAMLshn;;;;;;;anonymous;EN;3;1;2;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;;;0,58;0,58;0,3;;;;;;;;;;;;;0,65;0,65;0,37;;;;EN;
+14/11/2023 07:10;14/11/2023 07:12;0;;100;84;1;14/11/2023 07:12;R_2q8Y1WoGXf4xBWR;;;;;;;anonymous;EN;3;1;2;3;;1;;2;1;5;5;0,72;0,06;0,12;;;;;;;;;;;;;0,8;0,06;0,13;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 07:13;14/11/2023 07:16;0;;100;157;1;14/11/2023 07:16;R_ehUjKqob9PaXzwd;;;;;;;anonymous;EN;3;1;1;3;;2;1;1;1;4;1;0,35;0,05;0,35;;;;;;;;;;;;;0,4;0,06;0,36;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 07:15;14/11/2023 07:17;0;;100;119;1;14/11/2023 07:17;R_2QAnPHtWUZ8g3Gj;;;;;;;anonymous;EN;3;1;2;4;Medicine;1;;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,65;0,4;0,2;;;;;;;;;;;;;0,7;0,4;0,2;;;;EN;
+14/11/2023 07:16;14/11/2023 07:18;0;;100;122;1;14/11/2023 07:18;R_3Rq0FhIKtwOCwtC;;;;;;;anonymous;EN;3;1;1;3;;2;1;1;1;5;4;0,61;0,07;0,07;;;;;;;;;;0,73;0,09;0,08;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 07:17;14/11/2023 07:19;0;;100;113;1;14/11/2023 07:19;R_2dWtlVlD4qFCaCi;;;;;;;anonymous;EN;3;2;2;4;Architecture;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,87;0,17;0,16;;;;;;;;;;0,83;0,5;0,45;;;;;;;EN;
+14/11/2023 07:26;14/11/2023 07:27;0;;100;63;1;14/11/2023 07:27;R_uePbCJXJ04AYXtL;;;;;;;anonymous;EN;3;1;2;3;;2;1;2;2;;;0,38;0,18;0,3;;;;0,47;0,62;0,75;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 07:30;14/11/2023 07:35;0;;100;307;1;14/11/2023 07:35;R_1Le4oInPvY4H1fz;;;;;;;anonymous;EN;3;1;2;4;Physics;1;;1;1;5;4;;;;;;;;;;;;;;;;;;;;;;0,31;0,43;0,2;;;;;;;;;;;;;;;;0,51;0,62;0,45;EN;
+14/11/2023 07:36;14/11/2023 07:40;0;;100;197;1;14/11/2023 07:40;R_xaxQfRsL4yRCd3P;;;;;;;anonymous;EN;4;1;2;4;chemist;1;;2;1;4;4;;;;;;;;;;;;;;;;;;;;;;0,61;0,6;0,6;;;;;;;;;;0,64;0,39;0,62;;;;;;;EN;
+14/11/2023 07:35;14/11/2023 07:45;0;;100;644;1;14/11/2023 07:45;R_2AKlHH5tUxBsFCb;;;;;;;anonymous;EN;1;1;2;4;mathematics / physics;2;1;1;1;4;5;;;;;;;;;;;;;;;;;;;;;;0,4;0,6;0,6;;;;;;;;;;0,4;0,8;0,8;;;;;;;EN;
+14/11/2023 07:53;14/11/2023 07:56;0;;100;142;1;14/11/2023 07:56;R_1cUjetE8Wev6xGw;;;;;;;anonymous;EN;3;1;1;3;;2;1;2;1;5;4;0,7;0,25;0,6;;;;;;;;;;;;;0,8;0,3;0,65;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 07:59;14/11/2023 08:01;0;;100;119;1;14/11/2023 08:01;R_1GUjcct1wyP1DfC;;;;;;;anonymous;EN;2;2;2;4;Maths ;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,64;0,46;0,68;;;;;;;;;;;;;;;;0,85;0,12;0,03;EN;
+14/11/2023 08:00;14/11/2023 08:04;0;;100;231;1;14/11/2023 08:04;R_ulAfGFSH4teNE2J;;;;;;;anonymous;EN;2;1;1;1;;2;1;2;1;4;2;;;;;;;;;;;;;;;;;;;;;;0,75;0,73;0,6;;;;;;;;;;0,8;0,76;0,65;;;;;;;EN;
+14/11/2023 08:01;14/11/2023 08:05;0;;100;227;1;14/11/2023 08:05;R_3fTyQrpdgEQePdT;;;;;;;anonymous;EN;1;2;2;4;high school;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,85;0,5;0,25;;;;;;;;;;;;;0,9;0,5;0,25;;;;EN;
+14/11/2023 08:39;14/11/2023 08:42;0;;100;217;1;14/11/2023 08:42;R_3rVDWN4MMbRxHmd;;;;;;;anonymous;EN;3;2;2;4;Architecture;2;1;1;1;5;5;;;;;;;;;;;;;;;;;;;;;;0,45;0,8;0,8;;;;;;;;;;;;;0,6;0,8;0,8;;;;EN;
+14/11/2023 08:44;14/11/2023 08:46;0;;100;127;1;14/11/2023 08:46;R_56C2VY1AFhPWVl7;;;;;;;anonymous;EN;3;1;2;3;;1;;2;2;;;0,45;0,39;0,3;;;;;;;;;;;;;;;;0,6;0,4;0,3;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 09:01;14/11/2023 09:02;0;;100;72;1;14/11/2023 09:02;R_2ZZvslZ9JBjEtYY;;;;;;;anonymous;EN;3;1;2;3;;1;;2;2;;;0,59;0,17;0,35;;;;;;;0,61;0,21;0,4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 09:24;14/11/2023 09:25;0;;100;93;1;14/11/2023 09:25;R_1MYQ5HVdqjzbMgn;;;;;;;anonymous;EN;3;1;2;1;;2;2;;;;;;;;;;;;;;;;;;;;;;;;;;0,15;0,15;0,16;;;;;;;;;;0,36;0,34;0,34;;;;;;;EN;
+14/11/2023 10:16;14/11/2023 10:18;0;;100;111;1;14/11/2023 10:18;R_3QKPizdm3kAW6Ci;;;;;;;anonymous;EN;4;2;2;4;architecture;2;2;;;;;;;;;;;;;;;;;;;;;;;;;;0,1;0,2;0,1;;;;;;;;;;;;;0,4;0,2;0,2;;;;EN;
+14/11/2023 10:16;14/11/2023 10:19;0;;100;188;1;14/11/2023 10:19;R_3jThHBFL59EtrZE;;;;;;;anonymous;EN;3;1;2;3;;2;1;1;1;2;2;0,79;0,24;0,42;0,79;0,75;0,52;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+14/11/2023 10:32;14/11/2023 10:47;0;;100;880;1;14/11/2023 10:47;R_2bU9pSXxjgxjEdc;;;;;;;anonymous;EN;3;1;2;4;Architecture ;2;1;2;1;4;2;;;;;;;;;;;;;;;;;;;;;;0,8;0,5;0,3;;;;;;;;;;;;;0,8;0,5;0,3;;;;EN;
+14/11/2023 10:52;14/11/2023 10:55;0;;100;189;1;14/11/2023 10:55;R_2Y8JhjkefkBtUVQ;;;;;;;anonymous;EN;3;2;2;4;Architecture ;2;1;2;1;4;4;;;;;;;;;;;;;;;;;;;;;;0,61;0,4;0,25;;;;;;;;;;;;;;;;0,78;0,5;0,42;EN;
+14/11/2023 11:08;14/11/2023 11:12;0;;100;221;1;14/11/2023 11:12;R_1K7IZzYkEjRrfoZ;;;;;;;anonymous;EN;3;2;2;4;Architecture;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,88;0,45;0,73;;;;;;;;;;;;;0,88;0,81;0,66;;;;EN;
+14/11/2023 12:18;14/11/2023 12:20;0;;100;144;1;14/11/2023 12:20;R_pa7q4smBfNCj3r3;;;;;;;anonymous;EN;3;2;2;4;Architecture ;2;1;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;0,7;0,89;0,52;;;;;;;;;;0,88;0,82;0,54;;;;;;;EN;
+14/11/2023 13:49;14/11/2023 14:00;0;;100;656;1;14/11/2023 14:00;R_8xoRL257adJpZO9;;;;;;;anonymous;EN;3;2;2;4;Architecture;2;1;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;0,86;0,49;0,48;;;;0,68;0,64;0,97;;;;;;;;;;;;;EN;
+14/11/2023 14:07;14/11/2023 14:11;0;;100;228;1;14/11/2023 14:11;R_23dhOWmfV6lCf2S;;;;;;;anonymous;EN;3;2;2;4;Architecture ;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,27;0,57;0,31;;;;0,55;0,71;0,6;;;;;;;;;;;;;EN;
+14/11/2023 14:14;14/11/2023 14:19;0;;100;332;1;14/11/2023 14:19;R_3w7xEhInU7f6KXv;;;;;;;anonymous;EN;3;1;2;4;Aerospace Engineering ;1;;1;1;5;2;;;;;;;;;;;;;;;;;;;;;;0,4;0,2;0,4;;;;;;;;;;;;;;;;0,6;0,4;0,6;EN;
+14/11/2023 18:52;14/11/2023 18:55;0;;100;141;1;14/11/2023 18:55;R_27vY7EO2bmuxfbm;;;;;;;anonymous;EN;3;2;2;4;Architecture;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,39;0,89;0,66;;;;;;;;;;0,51;0,81;0,48;;;;;;;EN;
+15/11/2023 05:34;15/11/2023 05:36;0;;100;114;1;15/11/2023 05:36;R_aXdmvLtl5TmYIPn;;;;;;;anonymous;EN;3;2;2;4;Architecture;1;;2;1;5;4;;;;;;;;;;;;;;;;;;;;;;1;0,7;0,51;;;;;;;;;;;;;1;0,7;0,7;;;;EN;
+16/11/2023 12:28;16/11/2023 12:31;0;;100;159;1;16/11/2023 12:31;R_2rPlgoXF0ygysk1;;;;;;;anonymous;EN;2;1;1;1;;1;;1;1;5;2;;;;;;;;;;;;;;;;;;;;;;0,1;0,3;0,2;;;;0,16;0,45;0,3;;;;;;;;;;;;;EN;
+16/11/2023 13:58;16/11/2023 14:01;0;;100;135;1;16/11/2023 14:01;R_2aEPvPC8CheXHaa;;;;;;;anonymous;EN;2;1;1;1;;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,4;0,65;0,3;;;;;;;;;;0,5;0,65;0,3;;;;;;;EN;
+16/11/2023 15:39;16/11/2023 15:41;0;;100;123;1;16/11/2023 15:41;R_28SUZgDJ8rE9qM1;;;;;;;anonymous;EN;3;1;1;3;;1;;1;1;5;4;0,8;0,4;0,8;0,8;0,5;0,85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+16/11/2023 18:26;16/11/2023 18:28;0;;100;142;1;16/11/2023 18:28;R_1GvvMdsR2OoKfqO;;;;;;;anonymous;EN;3;2;2;4;Architecture ;2;1;1;1;5;3;;;;;;;;;;;;;;;;;;;;;;0,38;0,8;0,57;;;;;;;;;;;;;0,44;0,8;0,57;;;;EN;
+17/11/2023 02:36;17/11/2023 02:40;0;;100;210;1;17/11/2023 02:40;R_2Xh2RocUB3F0gmP;;;;;;;anonymous;EN;3;1;1;3;;2;1;2;2;;;0,8;0;0,6;;;;;;;;;;;;;0,85;0;0,65;;;;;;;;;;;;;;;;;;;;;;;;;EN;
+17/11/2023 12:21;17/11/2023 12:24;0;;100;194;1;17/11/2023 12:24;R_2RWJLMQACS7GRqL;;;;;;;anonymous;IT;2;1;1;1;;2;1;2;1;2;4;;;;;;;;;;;;;;;;;;;;;;0,38;0,51;0,42;;;;;;;;;;;;;;;;0,63;0,41;0,41;IT;
+17/11/2023 12:25;17/11/2023 12:27;0;;100;121;1;17/11/2023 12:27;R_3lKrQkQoIYUWAVc;;;;;;;anonymous;EN;3;1;1;1;;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,6;0,73;0,41;;;;;;;;;;0,67;0,73;0,5;;;;;;;EN;
+17/11/2023 12:38;17/11/2023 12:40;0;;100;116;1;17/11/2023 12:40;R_RDnf45ITKmzq0k9;;;;;;;anonymous;IT;3;2;1;1;;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,35;0,26;0,29;;;;;;;0,32;0,41;0,42;;;;;;;;;;IT;
+17/11/2023 14:24;17/11/2023 14:26;0;;100;79;1;17/11/2023 14:26;R_3k6DskqQC2vFHHo;;;;;;;anonymous;EN;3;2;1;1;;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,55;0,68;0,59;;;;;;;0,49;0,82;0,82;;;;;;;;;;EN;
+19/11/2023 07:43;19/11/2023 07:44;0;;100;101;1;19/11/2023 07:44;R_1hB8X72KWlneC89;;;;;;;anonymous;EN;3;1;1;1;;2;1;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,35;0,37;0,11;;;;;;;;;;;;;;;;0,4;0,41;0,19;EN;
+19/11/2023 08:44;19/11/2023 08:48;0;;100;212;1;19/11/2023 08:48;R_3PnnHSqeoP8dTI4;;;;;;;anonymous;EN;3;1;2;1;;1;;2;1;5;2;;;;;;;;;;;;;;;;;;;;;;0,15;0,4;0,1;;;;;;;;;;0,35;0,45;0,12;;;;;;;EN;
+19/11/2023 08:56;19/11/2023 08:58;0;;100;110;1;19/11/2023 08:58;R_12xxThjYYtWRoC9;;;;;;;anonymous;IT;2;1;1;1;;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,5;0,3;0,5;;;;0,7;0,4;0,8;;;;;;;;;;;;;IT;
+19/11/2023 11:23;19/11/2023 11:27;0;;100;234;1;19/11/2023 11:27;R_2tyDiPP0Wiq2OBB;;;;;;;anonymous;IT;4;2;1;4;Legge ;2;2;;;;;;;;;;;;;;;;;;;;;;;;;;1;0,98;0,81;;;;;;;;;;;;;1;1;1;;;;IT;
+19/11/2023 13:33;19/11/2023 13:36;0;;100;156;1;19/11/2023 13:36;R_2afUpqYRjuUNcuq;;;;;;;anonymous;EN;2;1;1;1;;1;;1;2;;;;;;;;;;;;;;;;;;;;;;;;0,35;0,5;0,25;;;;0,35;0,45;0,3;;;;;;;;;;;;;EN;
+19/11/2023 17:05;19/11/2023 17:08;0;;100;214;1;19/11/2023 17:08;R_50dQFujK5BJ5CaR;;;;;;;anonymous;IT;3;1;1;1;;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,9;0,3;0,31;0,92;0,5;0,5;;;;;;;;;;;;;;;;IT;
+20/11/2023 00:41;20/11/2023 00:47;0;;100;346;1;20/11/2023 00:47;R_2c8fCTHYnWjJkAF;;;;;;;anonymous;IT;4;2;1;1;;2;1;1;1;4;2;;;;;;;;;;;;;;;;;;;;;;0,8;0,5;0,6;0,85;0,65;0,6;;;;;;;;;;;;;;;;IT;
+20/11/2023 06:30;20/11/2023 06:32;0;;100;90;1;20/11/2023 06:32;R_3ete2jtENTCDv3m;;;;;;;anonymous;IT;3;1;2;3;;1;;2;2;;;0,5;0,3;0,42;;;;;;;;;;;;;0,73;0,46;0,53;;;;;;;;;;;;;;;;;;;;;;;;;IT;
+20/11/2023 09:39;20/11/2023 09:42;0;;100;185;1;20/11/2023 09:42;R_xfI2mcLosvBgTnz;;;;;;;anonymous;EN;3;2;1;1;;2;1;2;2;;;;;;;;;;;;;;;;;;;;;;;;0,4;0,7;0,2;;;;;;;0,55;0,67;0,31;;;;;;;;;;EN;
